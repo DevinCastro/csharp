@@ -17,10 +17,13 @@ namespace app
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("What operation do you want to perform? (+,-,*,/)");
             string op = Console.ReadLine();
+
+            var list = new string[] {"+", "-", "*", "/"};
+
+            if (list.Contains(op)) {
+
             Console.WriteLine("Enter a second number");
             int num2 = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine(op);
 
             switch (op)
             {
@@ -43,6 +46,14 @@ namespace app
 
 
             Console.ReadLine();
+            } else
+            {
+                Console.WriteLine("incorrect input");
+                Console.ReadLine();
+            }
+
+
+
 
         }
     }
