@@ -1,0 +1,7 @@
+C:\Users\dcroc\Source\Repos\csharp\app\bin\Debug\app.exe.config
+C:\Users\dcroc\Source\Repos\csharp\app\bin\Debug\app.exe
+C:\Users\dcroc\Source\Repos\csharp\app\bin\Debug\app.pdb
+C:\Users\dcroc\Source\Repos\csharp\app\obj\Debug\app.csprojAssemblyReference.cache
+C:\Users\dcroc\Source\Repos\csharp\app\obj\Debug\app.csproj.CoreCompileInputs.cache
+C:\Users\dcroc\Source\Repos\csharp\app\obj\Debug\app.exe
+C:\Users\dcroc\Source\Repos\csharp\app\obj\Debug\app.pdb
