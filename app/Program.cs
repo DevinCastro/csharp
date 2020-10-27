@@ -54,12 +54,20 @@ namespace app
             }
         }
 
+        static void loop(int num)
+        {
+            for (int i = 0; i <= num; i++) {
+            Console.WriteLine(i);
+            }
+        }
+
 
         static void Main(string[] args)
         {
 
-            calc();
-
+            // calc();
+            loop(50);
+            Console.ReadLine();
 
         }
     }
