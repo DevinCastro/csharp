@@ -77,14 +77,28 @@ namespace app
 
 
            foreach (int element in myarray)
-            {
+           {
                 Console.WriteLine(element + 1);
-            }
+           }
+
+
+           test("devin", 23);
 
 
 
-            Console.ReadLine();
+
+           Console.ReadLine();
 
         }
+
+        static void test(string name, int age) 
+        {
+            Console.WriteLine("Hello " + name + " you are " + age + " years old.");
+
+        }  
+
+      
+        
+
     }
 }
