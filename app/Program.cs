@@ -66,7 +66,23 @@ namespace app
         {
 
             // calc();
-            loop(50);
+            // loop(50);
+
+
+            int[] myarray = { 5, 3, 64, 234, 56, 4 };
+            
+           // for (int i=0; i < myarray.Length; i++){
+           //     Console.WriteLine(myarray[i]);
+           // }
+
+
+           foreach (int element in myarray)
+            {
+                Console.WriteLine(element + 1);
+            }
+
+
+
             Console.ReadLine();
 
         }
