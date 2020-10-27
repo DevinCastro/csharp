@@ -9,9 +9,10 @@ namespace app
 {
     class Program
     {
-        static void Main(string[] args)
-        {
 
+        static void calc()
+        {
+            
             Console.WriteLine("This is a calculator");
             Console.WriteLine("Enter a number");
             int num1 = Convert.ToInt32(Console.ReadLine());
@@ -49,10 +50,15 @@ namespace app
             } else
             {
                 Console.WriteLine("incorrect input");
-                Console.ReadLine();
+                calc();
             }
+        }
 
 
+        static void Main(string[] args)
+        {
+
+            calc();
 
 
         }
