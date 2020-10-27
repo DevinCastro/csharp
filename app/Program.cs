@@ -82,9 +82,9 @@ namespace app
            }
 
 
-           test("devin", 23);
+           // test("devin", 23);
 
-
+           Console.WriteLine(cube(2));
 
 
            Console.ReadLine();
@@ -97,8 +97,12 @@ namespace app
 
         }  
 
-      
-        
+       static int cube(int num) 
+       {
+           int result = num * num * num;
+           return result; 
+       }
+
 
     }
 }
